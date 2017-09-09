@@ -15,4 +15,4 @@ The second version uses prompts and alerts like some of the other functions I ha
 
 Enjoy and please check back again
 
-<h3>Johnathan Mercier</h3>
+<strong>Johnathan Mercier</strong>
