@@ -15,4 +15,8 @@ The second version uses prompts and alerts like some of the other functions I ha
 
 Enjoy and please check back again
 
+###Update 1/15/2017
+
+I have added an html page to call the script. It will be eventually replaced with a bigger and badder script that does everything in the DOM instead of prompts and alerts. Give it a try and have fun!
+
 <strong>Johnathan Mercier</strong>
