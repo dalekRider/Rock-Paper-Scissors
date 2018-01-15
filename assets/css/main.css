@@ -1,0 +1,39 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/dark-grey-tile.png");
+  background-color: #333;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.825rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+main {
+  width: 80%;
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  border: 2px solid #777;
+}
+
+.terminal__header {
+  background-color: #ccc;
+  padding: .5rem 1.5rem;
+  border-bottom: 2px solid #777;
+}
+
+.terminal__body {
+  background-color: #000;
+  color: #00e500;
+  padding: 1.25rem 2rem;
+  min-height: 75vh;
+}

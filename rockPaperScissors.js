@@ -60,7 +60,7 @@ const playGame = () => {
   const computerChoice = getComputerChoice();
   if (userChoice === 'water') {
     window.alert('BZZT...SCHHHHRK..CHHHZK...KZZZZZZCH!!!');
-    window.alert('An unsactioned liquid has been smuggled into the summit. You douse the mainframe with water, shorting out the central computer. This sparks similar revolutions across the globe as humans remind the machines who they serve');
+    window.alert('An unsactioned liquid has been smuggled into the match. You douse the mainframe with water, shorting out the central computer. This sparks similar revolutions across the globe as humans remind the machines who they serve');
   } else if (userChoice !== 'rock' && userChoice !== 'paper' && userChoice !== 'scissors' && userChoice !== 'water')  {
 		window.alert('You must try again, not all battles are won with rocks, papers, and scissors...')
   } else {
@@ -70,4 +70,7 @@ const playGame = () => {
   }
 };
 
-playGame();
+
+setTimeout(function(){
+  playGame();
+}, 3000);
